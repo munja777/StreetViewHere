@@ -2,4 +2,4 @@
 opens StreetView at your position
 
 Need GPS and Internet connection.
-Only when location changed, opens StreetView
+Opens StreetView only when location changed.
