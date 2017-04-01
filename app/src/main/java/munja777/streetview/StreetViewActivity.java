@@ -51,7 +51,6 @@ public class StreetViewActivity extends FragmentActivity {
     private void toast(String str) {  Toast.makeText(this, str, Toast.LENGTH_LONG).show();  }
 
     // Modified from Google Documentation: toast and open streetview when location changed
-
     final LocationListener mLocationListener = new LocationListener() {
         @Override
         public void onLocationChanged(final Location location) {
